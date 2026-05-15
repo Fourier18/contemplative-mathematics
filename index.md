@@ -5,8 +5,6 @@ description: A curated starting library for serious-curious readers approaching 
 
 # Resources for Sacred Geometry and Contemplative Mathematics
 
-A curated starting library for readers approaching sacred geometry as a living intellectual tradition rather than a decorative aesthetic — with particular emphasis on the Renaissance current running through John Dee, Ficino, and the Hermetic-Platonic inheritance, and on contemporary mathematicians and educators who treat geometry as a contemplative practice.
-
 The list below is opinionated. It favors primary sources, serious scholarship, and teachers who can hold both the mathematical rigor and the metaphysical stakes without collapsing one into the other. Newcomers can start anywhere; the books and video channels are the gentlest entry points, the dissertations and papers reward patience.
 
 > *Maintained by JMZ — see bio at the bottom of the page. Originally compiled for a 2024 workshop at the Meeting of the Collective Mind in Hudson, Florida, and kept updated since.*
