@@ -1,13 +1,18 @@
 :root {
-  --bg: #f4ecd8;
-  --bg-grain: rgba(139, 111, 71, 0.05);
-  --ink: #2a1f14;
-  --ink-soft: #4a3a26;
-  --muted: #6b5a3f;
-  --rule: #a08458;
-  --accent: #6b1d1d;
-  --accent-hover: #8b2828;
-  --measure: 38rem;
+  --bg: #ffffff;
+  --ink: #1a1a1a;
+  --ink-soft: #3a3a3a;
+  --muted: #5a5a5a;
+  --rule: #c8d4c8;
+  --accent: #2c5e3f;
+  --accent-hover: #1e4d2b;
+  --banner-dark: #0e2e1c;
+  --banner-mid: #1e4d2b;
+  --banner-light: #3d6e4a;
+  --banner-text: #f0e6cc;
+  --banner-text-soft: #d4c39a;
+  --banner-gold: #c9a96e;
+  --measure: 42rem;
 }
 
 * { box-sizing: border-box; }
@@ -17,76 +22,119 @@ html { font-size: 18px; }
 body {
   margin: 0;
   background: var(--bg);
-  background-image:
-    radial-gradient(circle at 18% 22%, var(--bg-grain) 0, transparent 45%),
-    radial-gradient(circle at 82% 78%, var(--bg-grain) 0, transparent 45%),
-    radial-gradient(circle at 55% 50%, rgba(139, 111, 71, 0.025) 0, transparent 60%);
   color: var(--ink);
-  font-family: 'EB Garamond', 'Garamond', 'Cambria', 'Times New Roman', serif;
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
   font-size: 1.1rem;
   line-height: 1.7;
-  font-feature-settings: "liga", "kern", "onum";
+  font-feature-settings: "liga", "kern";
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
-.page {
-  max-width: var(--measure);
-  margin: 4rem auto 6rem;
-  padding: 0 1.5rem;
+/* ---------- Banner ---------- */
+
+.banner {
+  background-color: var(--banner-mid);
+  background-image:
+    linear-gradient(135deg, var(--banner-dark) 0%, var(--banner-mid) 55%, var(--banner-light) 100%),
+    radial-gradient(ellipse at top, rgba(201, 169, 110, 0.15) 0%, transparent 60%);
+  background-blend-mode: overlay, normal;
+  color: var(--banner-text);
+  padding: 4rem 1.5rem;
+  text-align: center;
+  position: relative;
+  border-bottom: 3px double var(--banner-gold);
 }
 
-h1 {
-  font-family: 'IM Fell English SC', 'IM Fell English', 'EB Garamond', serif;
-  font-weight: normal;
-  font-size: 2.3rem;
-  text-align: center;
-  margin: 0 0 2rem;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: var(--ink);
+.banner::before,
+.banner::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(90%, 50rem);
+  height: 1px;
+  background: rgba(201, 169, 110, 0.5);
 }
+
+.banner::before { top: 1.2rem; }
+.banner::after  { bottom: 1.2rem; }
+
+.banner-inner {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.banner-title {
+  font-family: 'IM Fell English SC', 'EB Garamond', Georgia, serif;
+  font-weight: normal;
+  font-size: clamp(1.8rem, 4.5vw, 2.6rem);
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+  margin: 0 0 0.8rem;
+  color: var(--banner-text);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+.banner-tagline {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 42rem;
+  color: var(--banner-text-soft);
+}
+
+/* ---------- Main content ---------- */
+
+.main-content {
+  padding: 3rem 1.5rem 5rem;
+}
+
+.content-inner {
+  max-width: var(--measure);
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'EB Garamond', Georgia, serif;
+  color: var(--ink);
+  line-height: 1.3;
+}
+
+/* index.md's own h1 (redundant w/ banner) is hidden */
+.content-inner > h1:first-child { display: none; }
 
 h2 {
-  font-family: 'IM Fell English SC', 'IM Fell English', serif;
-  font-weight: normal;
-  font-size: 1.5rem;
-  margin-top: 3.5rem;
-  margin-bottom: 1.2rem;
-  letter-spacing: 0.08em;
-  border-bottom: 1px solid var(--rule);
+  font-weight: 600;
+  font-size: 1.55rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
   padding-bottom: 0.4rem;
-  color: var(--ink);
+  border-bottom: 1px solid var(--rule);
+  letter-spacing: 0.01em;
 }
 
 h3 {
-  font-family: 'IM Fell English', 'EB Garamond', serif;
-  font-weight: normal;
+  font-weight: 600;
   font-style: italic;
   font-size: 1.2rem;
-  margin-top: 2.2rem;
-  margin-bottom: 0.8rem;
+  margin-top: 2rem;
+  margin-bottom: 0.7rem;
   color: var(--ink-soft);
 }
 
 p { margin: 0 0 1.1rem; }
-
-h1 + p::first-letter {
-  font-family: 'IM Fell English', 'EB Garamond', serif;
-  font-size: 3.8rem;
-  float: left;
-  line-height: 0.85;
-  padding: 0.35rem 0.55rem 0 0;
-  color: var(--accent);
-  font-weight: normal;
-}
 
 a {
   color: var(--accent);
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
-  text-decoration-color: rgba(107, 29, 29, 0.45);
+  text-decoration-color: rgba(44, 94, 63, 0.4);
   transition: color 0.15s ease, text-decoration-color 0.15s ease;
 }
 
@@ -96,7 +144,7 @@ a:hover {
 }
 
 blockquote {
-  margin: 1.5rem 1rem;
+  margin: 1.5rem 0;
   padding: 0.3rem 0 0.3rem 1.1rem;
   border-left: 2px solid var(--rule);
   color: var(--muted);
@@ -107,45 +155,32 @@ blockquote p { margin-bottom: 0.6rem; }
 blockquote p:last-child { margin-bottom: 0; }
 
 ul, ol {
-  padding-left: 1.4rem;
+  padding-left: 1.5rem;
   margin: 0 0 1.2rem;
 }
 
-li {
-  margin-bottom: 0.5rem;
-}
+li { margin-bottom: 0.5rem; }
 
 strong { font-weight: 600; color: var(--ink); }
 em { font-style: italic; }
 
 hr {
   border: none;
-  height: 1.5rem;
-  margin: 3rem auto;
-  text-align: center;
-  overflow: visible;
-}
-
-hr::before {
-  content: "❦";
-  color: var(--rule);
-  font-size: 1.4rem;
-  letter-spacing: 0.6rem;
-  display: inline-block;
-  transform: translateY(-0.1rem);
+  border-top: 1px solid var(--rule);
+  margin: 2.5rem auto;
+  max-width: 12rem;
 }
 
 code {
   font-family: 'Consolas', 'Courier New', monospace;
-  background: rgba(139, 111, 71, 0.1);
+  background: #f0f0f0;
   padding: 0.1rem 0.3rem;
   border-radius: 2px;
   font-size: 0.92em;
 }
 
-@media (max-width: 480px) {
-  html { font-size: 17px; }
-  .page { margin: 2rem auto 3rem; }
-  h1 { font-size: 1.9rem; }
-  h2 { font-size: 1.3rem; }
+@media (max-width: 640px) {
+  .banner { padding: 2.5rem 1rem; }
+  .main-content { padding: 2rem 1rem 3rem; }
+  h2 { font-size: 1.35rem; margin-top: 2.2rem; }
 }
