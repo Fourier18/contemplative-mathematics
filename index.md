@@ -9,7 +9,7 @@ A curated starting library for readers approaching sacred geometry as a living i
 
 The list below is opinionated. It favors primary sources, serious scholarship, and teachers who can hold both the mathematical rigor and the metaphysical stakes without collapsing one into the other. Newcomers can start anywhere; the books and video channels are the gentlest entry points, the dissertations and papers reward patience.
 
-> *Maintained by Joshua — see bio at the bottom of the page. Originally compiled for a 2024 workshop at the Meeting of the Collective Mind in Hudson, Florida, and kept updated since.*
+> *Maintained by JMZ — see bio at the bottom of the page. Originally compiled for a 2024 workshop at the Meeting of the Collective Mind in Hudson, Florida, and kept updated since.*
 
 ---
 
@@ -17,7 +17,7 @@ The list below is opinionated. It favors primary sources, serious scholarship, a
 
 - **Total beginner:** Schneider, *A Beginner's Guide to Constructing the Universe.*
 - **Want the classical framing:** Martineau et al., *Quadrivium.*
-- **Here for Dee specifically:** the *Monas Hieroglyphica* in the Burns/Turner translation, with my thesis as a reading companion.
+- **Here for Dee specifically:** the *Monas Hieroglyphica* in the Burns/Turner translation, with JMZ's MA thesis as a reading companion.
 
 ---
 
@@ -36,22 +36,22 @@ A compact, beautifully illustrated tour of the classical four mathematical arts 
 A 1929 essay that argues both disciplines are species of the same contemplative act. Out of print and worth hunting down; a touchstone for anyone who suspects mathematical intuition and poetic intuition are the same faculty under different lighting.
 
 **[A Curious History of Mathematics: The Big Ideas from Early Number Concepts to Chaos Theory](https://www.goodreads.com/book/show/18342764-a-curious-history-of-mathematics)** — Joel Levy
-A breezy popular history. Useful as connective tissue if your historical sense of mathematics has gaps — it won't make you a scholar but it will give you the timeline most curricula skip.
+A joyful tour through the whole human adventure with number, from tally marks on bone to fractals. Levy knows the material cold and writes it with real affection, which is rarer in popular math than it should be. For anyone drawn to math as a contemplative practice, it's the book that lays out the full lineage you're standing in.
 
 **[Mathematics and the Aesthetic: New Approaches to an Ancient Affinity](https://www.goodreads.com/book/show/457044.Mathematics_and_the_Aesthetic)** — Nathalie Sinclair, William Higginson (editors)
-An academic anthology on beauty as a working category in mathematical practice. Essays vary; the strongest ones treat aesthetic experience as evidence rather than ornament.
+An anthology of mathematicians and philosophers examining what mathematical beauty actually is, and whether it tracks something real in the mathematics itself. The contributors take up elegance, surprise, symmetry, and the recognition that a form has resolved correctly, and argue that beauty is part of how the work actually gets done. Rigorous defense of what contemplative practitioners have always known.
 
 **[Monas Hieroglyphica](https://en.wikipedia.org/wiki/Monas_Hieroglyphica)** — John Dee, translated by Dr. Teresa Burns and Dr. Nancy Turner ([Ouroboros Press](https://www.bookarts.org/about.html))
 The primary text. Dee's 1564 treatise compresses Hermetic, alchemical, and geometric thought into a single hieroglyphic symbol and twenty-four theorems unpacking it. The Burns/Turner edition is the serious English-language entry point.
 
 **Magick Revised** — Ray Eales ([ebook](https://www.lulu.com/shop/ray-eales/magick-revised/ebook/product-12vpkp45.html) · [hardcover](https://www.lulu.com/shop/ray-eales/magick-revised/hardcover/product-1p6p7m9v.html))
-A practitioner's handbook from inside the Thelemic-Hermetic tradition. Included here because the contemplative geometry of figures like Dee can't be fully understood at arm's length from the practices it lived inside.
+A practitioner's handbook from inside a Thelemic tradition. Included here for extending contemplative mathematics into a wider art form of Magick & Yoga.
 
 ---
 
 ## Video channels
 
-These four channels treat mathematics as something fascinating rather than something to survive. Useful for keeping the contemplative posture alive between heavier readings.
+These four channels are technically substantive but consistently fun, interesting, and insightful. Useful for keeping the joy fresh while diving into (or taking a break from) the harder material.
 
 - **[Numberphile](https://www.youtube.com/@numberphile)** — short, deep dives with working mathematicians; the canonical popular-math channel.
 - **[Combo Class](https://www.youtube.com/@ComboClass)** — eccentric, hand-drawn explorations of number systems and patterns, taught in what appears to be a perpetually-on-fire backyard.
@@ -63,13 +63,13 @@ These four channels treat mathematics as something fascinating rather than somet
 ## Math tools and computational platforms
 
 **[WolframAlpha](https://www.wolframalpha.com/)**
-An "answer engine" developed by Wolfram Research. Invaluable for analyzing properties of numbers, geometric forms, and other mathematical entities — type in almost anything and it will tell you what it knows.
+An answer engine developed by Wolfram Research. Invaluable for analyzing properties of numbers, geometric forms, and other mathematical entities.
 
 **[GeoGebra](https://www.geogebra.org/)**
-Interactive geometry, algebra, statistics, and calculus, free and cross-platform. The closest digital equivalent to working with compass and straightedge, and the best tool for following along with constructive geometry books like Schneider's or Lawlor's. See also their dynamic textbook [*Learning Geometry with the GeoGebra Platform*](https://www.geogebra.org/m/cst5rafd).
+Interactive geometry, algebra, statistics, and calculus, free and cross-platform. See also their dynamic textbook [*Learning Geometry with the GeoGebra Platform*](https://www.geogebra.org/m/cst5rafd).
 
 **[Desmos Studio](https://www.desmos.com/)**
-A suite of math tools from a public-benefit corporation focused on accessibility and learning. The graphing calculator is the standout — visualizing functions is one of the fastest paths into the aesthetics of mathematics.
+Desmos Studio is a public-benefit corporation whose stated mission is to help everyone learn math, love math, and grow with math. The suite includes the graphing calculator (the flagship — and one of the fastest paths into the aesthetics of mathematics), a scientific calculator, a four-function calculator, a geometry tool for compass-and-straightedge constructions in the browser, a 3D graphing calculator, and a Matrix Calculator. All free, all browser-based, all designed for clarity over feature-bloat.
 
 ---
 
@@ -79,13 +79,13 @@ A suite of math tools from a public-benefit corporation focused on accessibility
 A long-form historical investigation tracing the genealogies of esoteric currents from antiquity to the present, in dialogue with leading specialists. The most rigorous resource of its kind outside formal academia. Start with **Episode Zero: "So What is Western Esotericism, Anyway?"**
 
 **The Modern Hermeticist** — Dan Attrell
-Attrell, translator of the *Picatrix*, curates documentaries, readings, lectures, and study guides on the fringes of history, philosophy, art, science, magic, and religion. Particularly relevant here: [**"Let None Ignorant of Geometry Enter — Encyclopedia Hermetica: A Big History (Part 13)"**](https://youtu.be/jbYNmMPWEOI?si=YBL5E76rOAAXBvHa).
+Attrell, translator of the *Picatrix*, curates documentaries, readings, lectures, and study guides on history, philosophy, art, science, magic, and religion. Particularly relevant here: [**"Let None Ignorant of Geometry Enter — Encyclopedia Hermetica: A Big History (Part 13)"**](https://youtu.be/jbYNmMPWEOI?si=YBL5E76rOAAXBvHa).
 
 **John Dee's Hieroglyphic Monad Explained** — Dr. Teresa Burns
-Co-translator of the Ouroboros Press edition teaching the *Monas* across 24 classes. Slow, careful, the best extended treatment of the text available freely online. [**Playlist (Class 1 of 24)**](https://youtu.be/DSV4gNP_QHs?si=_wc0eEPyyUnbdNG8).
+Co-translator of the Ouroboros Press edition teaching the *Monas* across 24 classes. Methodical and patient, the best extended treatment of the text available freely online. [**Playlist (Class 1 of 24)**](https://youtu.be/DSV4gNP_QHs?si=_wc0eEPyyUnbdNG8).
 
 **Peter Forshaw on John Dee's Monas Hieroglyphica** — Infinite Fire Webinar III
-A webinar from the Ritman Library and the Center for the History of Hermetic Philosophy and Related Currents (University of Amsterdam). Forshaw is one of the leading living scholars of the *Monas*. [**Watch on YouTube**](https://youtu.be/pGzBpqfF-HI?si=5ZHIrJ4qogiHs5tW).
+A webinar from the Ritman Library and the Center for the History of Hermetic Philosophy and Related Currents (University of Amsterdam). Forshaw is one of the leading scholars of the *Monas*. [**Watch on YouTube**](https://youtu.be/pGzBpqfF-HI?si=5ZHIrJ4qogiHs5tW).
 
 ---
 
@@ -117,7 +117,7 @@ A four-paper cluster on Dee and the sciences — the best single concentration o
 ### Related currents
 
 **"Magic, astrology and music: the background to Marsilio Ficino's astrological music therapy and his role as a Renaissance magus"** — Angela Voss (Unpublished Doctoral thesis, City University London, 1992)
-> *"Chapter one is concerned with aspects of musica mundana as represented by Ficino's three main authorities, Plato, Hermes Trismegistus and Plotinus. … From this synthesis of the intellectual and the intuitive emerges Plotinus, whose understanding of cosmic sympathy and resonance has profound implications for a significatory attitude towards astrology."*
+> *A four-chapter study of Ficino as the Renaissance synthesizer of the Pythagorean-Platonic inheritance. Voss reconstructs the ground Ficino stands on — musica mundana through Plato, Hermes Trismegistus, and Plotinus, with Pythagorean harmonia as the ratio governing cosmos and soul alike, and the theurgic rituals of Iamblichus, Proclus, and the Chaldaean Oracles by which Platonic practitioners tuned the soul to that order — then turns to Ficino's own synthesis: his ways of knowing, his quarrel with astrological determinism, and the rules for composing astrological music that culminate in his self-fashioning as a "second Orpheus." The connective tissue between the geometric-numerical contemplative tradition and its lived ritual application in the Renaissance. Dee read Ficino; if you want to understand why Renaissance geometers thought a diagram could do something rather than merely represent something, this is the apparatus underneath that assumption.*
 
 [**FREE PDF** via City University London](https://openaccess.city.ac.uk/id/eprint/7977/)
 
